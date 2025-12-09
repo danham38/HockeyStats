@@ -1,4 +1,4 @@
-# Hockey Process Metrics Analyzer
+# Hockey Process Metrics Analyser
 
 This project is a Java application that calculates **process-outcome metrics** for hockey matches.  
 It’s designed to help coaches and analysts move beyond raw counts (shots, corners, entries) and understand the *quality and efficiency* of play.
