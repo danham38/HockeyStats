@@ -7,15 +7,15 @@ public class TeamStats {
     private int penaltyCorners;
     private int pcGoals;
 
-    // Aerial vs floor retention stats
+    // Aerial vs unit play retention stats
     private int aerialRetained;
     private int aerialLost;
     private int floorRetained;
     private int floorLost;
 
-    // Baseline probabilities
+    // Baseline probabilities - should score ~30% of PCA's and ~20% of open play shots
     private static final double P_OPEN = 0.08;
-    private static final double P_PC = 0.18;
+    private static final double P_PC = 0.3;
 
     // Constructor
     public TeamStats(int shots, int goals, int circlePossessions, int entries25,
